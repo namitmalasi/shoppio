@@ -3,7 +3,7 @@ import SearchBar from "../searchBar/SearchBar";
 
 const Navbar = () => {
   const navList = (
-    <ul className="flex space-x-3 text-white font-medium text-lg px-5">
+    <ul className="flex space-x-3 text-white font-medium text-md px-5">
       {/* Home */}
       <li>
         <Link to={"/"}>Home</Link>
@@ -39,9 +39,9 @@ const Navbar = () => {
         {/* left  */}
         <div className="left py-3 lg:py-0">
           <Link to={"/"}>
-            <h1 className=" font-bold text-white text-2xl text-center">
+            <h2 className=" font-bold text-white text-2xl text-center">
               Shoppio
-            </h1>
+            </h2>
           </Link>
         </div>
         {/* right  */}
