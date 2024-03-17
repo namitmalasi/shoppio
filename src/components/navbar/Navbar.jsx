@@ -3,7 +3,7 @@ import SearchBar from "../searchBar/SearchBar";
 
 const Navbar = () => {
   const navList = (
-    <ul className="flex space-x-3 text-white font-medium text-md px-5">
+    <ul className="flex space-x-3 text-white font-medium text-lg">
       {/* Home */}
       <li>
         <Link to={"/"}>Home</Link>
